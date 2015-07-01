@@ -63,13 +63,14 @@ CMD ["/sbin/my_init"]
 
 # Install software needed for common R libraries
 # For RCurl
-RUN apt-get -y install libcurl4-openssl-dev
+RUN apt-get install libssl-dev/unstable
+RUN apt-get install libcurl4-openssl-dev
 # For rJava
-RUN apt-get -y install libpcre++-dev
-RUN apt-get -y install openjdk-7-jdk  
+RUN apt-get install libpcre++-dev
+RUN apt-get install openjdk-7-jdk  
 # For XML
-RUN apt-get -y install libxml2-dev
-RUN apt-get -y install libssl-dev/unstable
+RUN apt-get install libxml2-dev
+
 
 ##### R: COMMON PACKAGES
 # To let R find Java
