@@ -69,6 +69,7 @@ RUN apt-get -y install libpcre++-dev
 RUN apt-get -y install openjdk-7-jdk  
 # For XML
 RUN apt-get -y install libxml2-dev
+RUN apt-get install libssl-dev/unstable
 
 ##### R: COMMON PACKAGES
 # To let R find Java
