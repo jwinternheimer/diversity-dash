@@ -75,7 +75,7 @@ shinyServer(function(input, output) {
         } else{
           n1 <- nPlot(~age_range, data = data[order(data[[by]]),],type="pieChart",dom=paste(by,"Plot",sep=""))
         }
-        n1$params$width <- 800
+        n1$params$width <- 600
         return(n1)
    
       } else {
@@ -83,7 +83,7 @@ shinyServer(function(input, output) {
         n2$chart(stacked=T)
         n2$chart(reduceXTicks = FALSE)
         n2$yAxis(tickFormat = "#! function(y) { return (y).toFixed(0) } !#" )
-        n2$params$width <- 800
+        n2$params$width <- 600
         return(n2)
       }
     })
@@ -129,7 +129,7 @@ shinyServer(function(input, output) {
         !#"
       )
       n3$yAxis(tickFormat = "#! function(y) { return (y).toFixed(0) } !#" )
-      n3$params$width <- 800
+      n3$params$width <- 600
       return(n3)
       #ggplot(time_and_field, aes_string(x='posixDate', y='n', fill=by)) +
       #  geom_area(stat="Identity") +
