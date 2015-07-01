@@ -4,10 +4,9 @@ library("downloader")
 library('scales')
 library('grid')
 library('RColorBrewer')
+library('rCharts')
 source('data.R')
 
-download("https://github.com/ramnathv/rCharts/archive/master.tar.gz", "rCharts.tar.gz")
-install.packages("rCharts.tar.gz", repos = NULL, type = "source")
 
 
 shinyServer(function(input, output) {
