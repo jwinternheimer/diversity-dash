@@ -1,4 +1,5 @@
 library(shinythemes)
+require(rCharts)
 
 
 shinyUI(
