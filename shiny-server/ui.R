@@ -1,4 +1,5 @@
 library(shinythemes)
+library(rCharts)
 require(rCharts)
 
 
