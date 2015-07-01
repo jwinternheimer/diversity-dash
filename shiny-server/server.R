@@ -4,7 +4,6 @@ library("downloader")
 library('scales')
 library('grid')
 library('RColorBrewer')
-library('rCharts')
 source('data.R')
 
 
