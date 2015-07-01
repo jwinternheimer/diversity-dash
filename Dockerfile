@@ -1,5 +1,5 @@
 FROM quantumobject/docker-baseimage
-MAINTAINER Julian Winternheimer <julian@buffer.com>
+MAINTAINER Michael Erasmus <michael@buffer.com>
 
 #add repository and update the container
 #Installation of nesesary package/software for this containers...
@@ -67,5 +67,5 @@ RUN apt-get install libxml2-dev
 RUN mkdir /data
 RUN chown -R shiny /data
 RUN chown -R shiny /usr/local/lib/R/site-library
-RUN R -e "install.packages(c('XML', 'ggplot2', 'downloader', 'data.table', 'dplyr', 'tidyr', 'scales', 'RColorBrewer', 'rcharts', 'shinythemes','zoo'),  repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('XML', 'ggplot2', 'downloader', 'data.table', 'dplyr', 'tidyr', 'scales', 'rcharts', 'RColorBrewer', 'shinythemes','zoo'),  repos='http://cran.rstudio.com/')"
 COPY shiny-server /srv/shiny-server/
