@@ -1,6 +1,5 @@
 library(shinythemes)
-library(rCharts)
-require(rCharts)
+
 
 shinyUI(
   navbarPage(title="Buffer Diversity Dashboard",theme = shinytheme("flatly"),
