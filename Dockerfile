@@ -61,20 +61,6 @@ EXPOSE 3838
 # Use baseimage-docker's init system.
 CMD ["/sbin/my_init"]
 
-# Install software needed for common R libraries
-# For RCurl
-RUN apt-get install libssl-dev/unstable
-RUN apt-get install libcurl4-openssl-dev
-# For rJava
-RUN apt-get install libpcre++-dev
-RUN apt-get install openjdk-7-jdk  
-# For XML
-RUN apt-get install libxml2-dev
-
-
-##### R: COMMON PACKAGES
-# To let R find Java
-RUN R CMD javareconf
 
 RUN apt-get update
 RUN apt-get install libxml2-dev
@@ -82,10 +68,5 @@ RUN mkdir /data
 RUN chown -R shiny /data
 RUN chown -R shiny /usr/local/lib/R/site-library
 RUN R -e "install.packages(c('XML', 'ggplot2', 'devtools', 'downloader', 'data.table', 'dplyr', 'tidyr', 'scales', 'RColorBrewer', 'shinythemes','zoo'),  repos='http://cran.rstudio.com/')"
-RUN R -e 'setRepositories(ind=1:6); \
-  options(repos="http://cran.rstudio.com/"); \
-  if(!require(devtools)) { install.packages("devtools") }; \
-  library(devtools); \
-  install_github("ramnathv/rCharts")'
 
 COPY shiny-server /srv/shiny-server/
