@@ -3,7 +3,7 @@ library(downloader)
 download("https://github.com/ramnathv/rCharts/archive/master.tar.gz", "rCharts.tar.gz")
 install.packages("rCharts.tar.gz", repos = NULL, type = "source")
 library(rCharts)
-require(rCharts)
+
 
 
 shinyUI(
