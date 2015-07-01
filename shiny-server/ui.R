@@ -1,6 +1,7 @@
 library(shinythemes)
 library(downloader)
-require(rCharts)
+library('rCharts')
+
 
 
 
