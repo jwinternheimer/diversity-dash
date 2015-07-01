@@ -67,7 +67,7 @@ RUN apt-get install libxml2-dev
 RUN mkdir /data
 RUN chown -R shiny /data
 RUN chown -R shiny /usr/local/lib/R/site-library
-RUN R -e "install.packages(c('XML', 'ggplot2', 'devtools, 'downloader', 'data.table', 'dplyr', 'tidyr', 'scales', 'RColorBrewer', 'shinythemes','zoo'),  repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('XML', 'ggplot2', 'devtools', 'downloader', 'data.table', 'dplyr', 'tidyr', 'scales', 'RColorBrewer', 'shinythemes','zoo'),  repos='http://cran.rstudio.com/')"
 RUN R -e 'setRepositories(ind=1:6); \
   options(repos="http://cran.rstudio.com/"); \
   if(!require(devtools)) { install.packages("devtools") }; \
