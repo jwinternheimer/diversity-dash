@@ -1,0 +1,128 @@
+<!DOCTYPE html><html><head><title>Demographics of the Buffer team (Responses)</title><meta name="viewport" content="target-densitydpi=device-dpi,user-scalable=1,minimum-scale=1,maximum-scale=2.5,initial-scale=1,width=device-width">
+<link href='/static/spreadsheets2/client/css/736083944-waffle_k_ltr.css' type='text/css' rel='stylesheet'><style type="text/css">
+        html { overflow: visible; }
+        #sheets-viewport { overflow: auto; }
+        #sheets-viewport.widget-viewport { overflow: hidden; }
+        .grid-container { overflow: visible; background: white;}
+        .grid-table-container { overflow: visible; }
+        #top-bar {
+          background: url("//ssl.gstatic.com/docs/spreadsheets/publishheader.png") repeat-x bottom;
+          margin: 0;
+          overflow: hidden;
+        }
+        #top-bar {
+          border-bottom: 1px solid #ccc;
+          padding: 6px 6px 0;
+        }
+        #doc-title { padding-bottom: 5px; }
+        #doc-title .name { font-size: 15px; }
+        #sheet-menu {
+          font-size: 13px;
+          margin: 6px 0 0;
+          padding: 0 0 5px;
+        }
+        #sheet-menu li {
+          display: inline;
+          list-style-type: none;
+          margin: 0;
+          padding: 5px 8px;
+        }
+        #sheet-menu li.active {
+          background-color: #fff;
+          font-weight: bold;
+          border: 1px solid #999;
+        }
+        #top-bar #sheet-menu li.active {
+          border-bottom: 0;
+        }
+        #sheet-menu a, #sheet-menu a:visited { color: #07c; }
+        #footer {
+          background: #f0f0f0;
+          border-top: 1px #ccc solid;
+          border-bottom: 1px #ccc solid;
+          font-size: 13;
+          padding: 10px 10px;
+        }
+        .dash {
+          padding: 0 6px;
+        }
+        .ritz .waffle a { color: inherit; }.ritz .waffle .s0{text-align:left;color:#000000;background-color:#ffffff;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-right: none;text-align:left;color:#000000;background-color:#ffffff;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{text-align:right;color:#000000;background-color:#ffffff;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}</style><script type="text/javascript">
+        var activeSheetId;
+
+        function switchToSheet(id) {
+          if (document.getElementById('sheet-menu')) {
+            document.getElementById('sheet-button-' + activeSheetId)
+                .className = '';
+            document.getElementById('sheet-button-' + id).className = 'active';
+          }
+
+          document.getElementById(activeSheetId).style.display = 'none';
+          document.getElementById(id).style.display = '';
+          activeSheetId = id;
+
+          // posObjs() is defined in embeddedObjectJs (see EmbeddedObjectHtmlBuilder.java)
+          posObjs();
+          return false;
+        }
+        
+        function init() {
+        var optPageSwitcher;
+        
+        function resize() {
+          var optMobileWebHeader = document.getElementById('docs-ml-header-id');
+          var optTopBar = document.getElementById('top-bar');
+          var optFooter = document.getElementById('footer');
+          var adjustedHeight = window.innerHeight -
+              (optMobileWebHeader ? optMobileWebHeader.offsetHeight : 0) -
+              (optTopBar ? optTopBar.offsetHeight : 0) -
+              (optFooter ? optFooter.offsetHeight : 0);
+          var adjustedWidth = window.innerWidth;
+          var sheetsViewport = document.getElementById('sheets-viewport');
+          sheetsViewport.style.width = (adjustedWidth + 'px');
+          sheetsViewport.style.height = (adjustedHeight + 'px');
+          if (optPageSwitcher) {
+            optPageSwitcher.resize(adjustedWidth, adjustedHeight);
+          }
+        }
+        resize();
+        window.onresize = resize;
+        }
+        </script><script>_docs_flag_initialData={"docs-smheo":false,"info_params":{},"ilcm":{"eui":"ADFN-cuEpV9fibgnwDooCNiSgK3o8-A6rVI1eN-1aLMYQNcX-VLnbxLIGZsSDi5V-kVhAN7cXaW2","je":1,"sstu":1435821160482000,"si":"CNCJ7dHyu8YCFQ4jgQod9XMAcg"},"drive_url":"//drive.google.com?usp\u003dsheets_web","docs-sup":"/spreadsheets/u/1"};</script></head><body onload=init()><div id="top-bar"><div id="doc-title"><span class="name">Demographics of the Buffer team (Responses) : Form Responses 1</span></div></div><div id="sheets-viewport"><div id="301282104" style="display:none;position:relative;" dir="ltr"><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-vertical-handle header-shim row-header-shim"></th><th id="301282104C0" style="width:150px" class="header-shim"></th><th id="301282104C1" style="width:150px" class="header-shim"></th><th id="301282104C2" style="width:195px" class="header-shim"></th><th id="301282104C3" style="width:150px" class="header-shim"></th><th id="301282104C4" style="width:150px" class="header-shim"></th><th id="301282104C5" style="width:150px" class="header-shim"></th></tr></thead><tbody><tr style='height:21px;'><th id="301282104R0" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">1</div></th><td class="s0">Timestamp</td><td class="s0">I identify my gender as:</td><td class="s0">I identify my ethnicity as:</td><td class="s0">The area I call home is:</td><td class="s0" dir="ltr">My age range is:</td><td class="s1 softmerge" dir="ltr"><div class="softmerge-inner" style="width: 248px; left: -1px;">The area I focus on at Buffer is:</div></td></tr><tr><th style="height:4px" class="freezebar-cell freezebar-horizontal-handle row-header-shim"></th><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td></tr><tr style='height:21px;'><th id="301282104R1" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">2</div></th><td class="s2" dir="ltr">5/22/2015 12:02:33</td><td class="s0" dir="ltr">Woman</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">35-44</td><td class="s0" dir="ltr">Content</td></tr><tr style='height:21px;'><th id="301282104R2" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">3</div></th><td class="s2" dir="ltr">5/22/2015 12:18:54</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">35-44</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R3" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">4</div></th><td class="s2" dir="ltr">5/22/2015 12:19:40</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Content</td></tr><tr style='height:21px;'><th id="301282104R4" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">5</div></th><td class="s2" dir="ltr">5/22/2015 12:21:49</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Product</td></tr><tr style='height:21px;'><th id="301282104R5" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">6</div></th><td class="s2" dir="ltr">5/22/2015 12:24:51</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Customer Research</td></tr><tr style='height:21px;'><th id="301282104R6" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">7</div></th><td class="s2" dir="ltr">5/22/2015 12:25:57</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R7" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">8</div></th><td class="s2" dir="ltr">5/22/2015 12:29:18</td><td class="s0" dir="ltr">Woman</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Happiness</td></tr><tr style='height:21px;'><th id="301282104R8" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">9</div></th><td class="s2" dir="ltr">5/22/2015 12:30:17</td><td class="s0" dir="ltr">Woman</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">18-24</td><td class="s0" dir="ltr">Happiness</td></tr><tr style='height:21px;'><th id="301282104R9" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">10</div></th><td class="s2" dir="ltr">5/22/2015 12:41:46</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Happiness</td></tr><tr style='height:21px;'><th id="301282104R10" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">11</div></th><td class="s2" dir="ltr">5/22/2015 12:56:56</td><td class="s0" dir="ltr">Woman</td><td class="s0" dir="ltr">White</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R11" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">12</div></th><td class="s2" dir="ltr">5/22/2015 13:06:19</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">18-24</td><td class="s0" dir="ltr">Growth</td></tr><tr style='height:21px;'><th id="301282104R12" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">13</div></th><td class="s2" dir="ltr">5/22/2015 13:08:30</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Product</td></tr><tr style='height:21px;'><th id="301282104R13" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">14</div></th><td class="s2" dir="ltr">5/22/2015 13:16:12</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Asia</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Data</td></tr><tr style='height:21px;'><th id="301282104R14" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">15</div></th><td class="s2" dir="ltr">5/22/2015 13:19:17</td><td class="s0" dir="ltr">Woman</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Community</td></tr><tr style='height:21px;'><th id="301282104R15" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">16</div></th><td class="s2" dir="ltr">5/22/2015 13:35:37</td><td class="s0" dir="ltr">Woman</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Happiness</td></tr><tr style='height:21px;'><th id="301282104R16" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">17</div></th><td class="s2" dir="ltr">5/22/2015 13:54:57</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian/Latino hybrid :)</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">18-24</td><td class="s0" dir="ltr">Customer Research</td></tr><tr style='height:21px;'><th id="301282104R17" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">18</div></th><td class="s2" dir="ltr">5/22/2015 14:22:31</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Asian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">18-24</td><td class="s0" dir="ltr">Data</td></tr><tr style='height:21px;'><th id="301282104R18" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">19</div></th><td class="s2" dir="ltr">5/22/2015 14:49:07</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Growth</td></tr><tr style='height:21px;'><th id="301282104R19" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">20</div></th><td class="s2" dir="ltr">5/22/2015 14:52:46</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R20" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">21</div></th><td class="s2" dir="ltr">5/22/2015 15:06:28</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Product</td></tr><tr style='height:21px;'><th id="301282104R21" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">22</div></th><td class="s2" dir="ltr">5/22/2015 15:25:23</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Data</td></tr><tr style='height:21px;'><th id="301282104R22" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">23</div></th><td class="s2" dir="ltr">5/22/2015 15:51:36</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">18-24</td><td class="s0" dir="ltr">Happiness</td></tr><tr style='height:21px;'><th id="301282104R23" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">24</div></th><td class="s2" dir="ltr">5/23/2015 0:59:33</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Africa</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R24" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">25</div></th><td class="s2" dir="ltr">5/23/2015 1:59:16</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Hispanic/Latino</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Happiness</td></tr><tr style='height:21px;'><th id="301282104R25" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">26</div></th><td class="s2" dir="ltr">5/24/2015 15:50:16</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R26" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">27</div></th><td class="s2" dir="ltr">5/24/2015 21:41:50</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Southeast Asian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R27" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">28</div></th><td class="s2" dir="ltr">5/25/2015 3:07:18</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R28" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">29</div></th><td class="s2" dir="ltr">5/25/2015 3:44:18</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Africa</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Data</td></tr><tr style='height:21px;'><th id="301282104R29" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">30</div></th><td class="s2" dir="ltr">5/25/2015 4:05:02</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Caucasian</td><td class="s0" dir="ltr">Europe</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr><tr style='height:21px;'><th id="301282104R30" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">31</div></th><td class="s2" dir="ltr">5/25/2015 18:39:26</td><td class="s0" dir="ltr">Man</td><td class="s0" dir="ltr">Indian</td><td class="s0" dir="ltr">North America</td><td class="s0" dir="ltr">25-34</td><td class="s0" dir="ltr">Development</td></tr></tbody></table></div></div></div><div id="footer"><span>Published by <a target="_blank" title="Learn more about Google Sheets" href="https://docs.google.com/spreadsheets/u/1/?usp=sheets_web">Google Sheets</a></span><span class="dash">&ndash;</span><a href="https://docs.google.com/abuse?id=1E9WwcIEYuGxR8GUrmxL1iaozOk_0FKSPPWbnCDn_C0A">Nahlásit zneužití</a><span class="dash">&ndash;</span><span>Automatická aktualizace: každých 5 min</span></div>
+<script type='text/javascript'>
+function posObj(sheet, id, row, col, x, y) {
+  var rtl = false;
+  var sheetElement = document.getElementById(sheet);
+  if (!sheetElement) {
+    sheetElement = document.getElementById(sheet + '-grid-container');
+  }
+  if (sheetElement) {
+    rtl = sheetElement.getAttribute('dir') == 'rtl';
+  }
+  var r = document.getElementById(sheet+'R'+row);
+  var c = document.getElementById(sheet+'C'+col);
+  if (r && c) {
+    var objElement = document.getElementById(id);
+    var s = objElement.style;
+    var t = y;
+    while (r) {
+      t += r.offsetTop;
+      r = r.offsetParent;
+    }
+    var offsetX = x;
+    while (c) {
+      offsetX += c.offsetLeft;
+      c = c.offsetParent;
+    }
+    if (rtl) {
+      offsetX -= objElement.offsetWidth;
+    }
+    s.left = offsetX + 'px';
+    s.top = t + 'px';
+    s.display = 'block';
+    s.border = '1px solid #000000';
+  }
+};
+function posObjs() {
+};
+posObjs();</script>
+<script type="text/javascript">activeSheetId = '301282104'; switchToSheet('301282104');</script></body></html>

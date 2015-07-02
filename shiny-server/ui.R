@@ -26,6 +26,7 @@ shinyUI(
                           tags$div(style="margin-bottom: 20px","Want to be part of the journey? ", tags$a(href="https://buffer.com/journey", "We're hiring!")),
                           selectInput("dataset", "Show diversity data for",choices = c("Applicants","The Buffer Team")),
                           radioButtons("plotType", "Plot type",c("Bar"="b", "Pie"="p")),
+                          radioButtons("timeSeriesType","Time series type",c("Stacked Area"="stackedAreaChart","Line"="lineChart")),
                           checkboxGroupInput("genderFilter", "Filter by gender",
                                              c('Man', 'Woman', 'Self Described', 'Prefer Not to Answer'),
                                              selected=c('Man', 'Woman', 'Self Described', 'Prefer Not to Answer')

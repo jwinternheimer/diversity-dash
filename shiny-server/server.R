@@ -8,7 +8,6 @@ library('rCharts')
 source('data.R')
 
 
-
 shinyServer(function(input, output) {
   ## RETURN REQUESTED DATASET
   datasetInput <- reactive({
@@ -121,7 +120,8 @@ shinyServer(function(input, output) {
       ## Order Levels of By Factor in time_and_field
       time_and_field[[by]] <- factor(time_and_field[[by]],levels=levels)
       
-      n3 <- nPlot(n~posixDate,group=by,data=time_and_field[order(time_and_field[[by]]),],type="stackedAreaChart",dom=paste(by,"TimeSeries",sep=""))
+      
+      n3 <- nPlot(n~posixDate,group=by,data=time_and_field[order(time_and_field[[by]]),],type=input$timeSeriesType,dom=paste(by,"TimeSeries",sep=""))
       n3$chart(useInteractiveGuideline=TRUE)
       n3$xAxis(
         tickFormat =   "#!
