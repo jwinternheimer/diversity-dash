@@ -107,7 +107,6 @@ mergeData <- function(data) {
   
   data$ethnicity <- ifelse(data$ethnicity %in% radioEthnicity, data$ethnicity,"Self Described")
   
-  data$gender <- gsub("Trans","Self Described",data$gender)
   data
 }
 
@@ -166,6 +165,7 @@ applicants_raw <- cleanUpNames(applicants_raw)
 applicants_raw <- removeOptOut(applicants_raw)
 
 team_raw <- readGoogleSheet(team_url, 'team')
+team_raw <- team_raw[,colSums(is.na(team_raw))<nrow(team_raw)]
 team_raw <- cleanUpNames(team_raw)
 
 applicants <- mergeData(applicants_raw)
